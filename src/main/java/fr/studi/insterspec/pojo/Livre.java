@@ -19,6 +19,8 @@ public class Livre {
 
     private String titre;
 
+    private String desciption;
+
     @ManyToOne
     @JoinColumn(name = "auteur_id")
     private Auteur auteur;
