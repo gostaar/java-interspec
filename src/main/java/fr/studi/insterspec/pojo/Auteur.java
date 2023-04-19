@@ -16,7 +16,7 @@ public class Auteur {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private Long auteur_id;
 
     private String prenom;
 

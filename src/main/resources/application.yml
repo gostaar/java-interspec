@@ -1,0 +1,10 @@
+spring:
+    datasource:
+        url: mysql-bauwens.alwaysdata.net/bauwens_yourbook
+        username: bauwens
+        password: pourmapoire!
+        driver-class-name: org.mariadb.jdbc.Driver
+    jpa:
+        hibernate:
+            ddl-auto: create
+        show-sql: true

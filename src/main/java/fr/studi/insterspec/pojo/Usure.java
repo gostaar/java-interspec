@@ -14,7 +14,7 @@ import lombok.Setter;
 public class Usure {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private Long usure_id;
 
     private String nom;
 
